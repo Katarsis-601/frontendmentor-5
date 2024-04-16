@@ -21,6 +21,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   align-items: center;
+  flex-direction: column;
   background-color: var(--background-body);
   font-size: 1em;
 }
@@ -99,7 +100,11 @@ body {
   font-size: 70%;
   color: var(--stat-heading);
 }
-
+.attribution {
+  color: white;
+  font-size: 50%;
+  margin-top: 10px;
+}
 @media screen and (max-width: 320px) {
   body {
     height: 200vh;
